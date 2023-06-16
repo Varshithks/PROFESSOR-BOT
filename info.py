@@ -21,9 +21,9 @@ def is_enabled(value, default):
 PORT = environ.get("PORT", "8080")
 WEBHOOK = bool(environ.get("WEBHOOK", True)) # for web support on/off
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['API_ID'])
-API_HASH = environ['API_HASH']
-BOT_TOKEN = environ['BOT_TOKEN']
+API_ID = int(environ['24157301'])
+API_HASH = environ['96af3e25323e488a75d85752dee7c936']
+BOT_TOKEN = environ['6220682139:AAGl58rWWI2rcb5xxJ1Bq6r4hh3loAjRJqw']
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
