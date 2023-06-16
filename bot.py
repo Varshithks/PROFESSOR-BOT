@@ -29,10 +29,10 @@ class Bot(Client):
 
     def __init__(self):
         super().__init__(
-            name=SESSION,
-            api_id=API_ID,
-            api_hash=API_HASH,
-            bot_token=BOT_TOKEN,
+            name=movies_father,
+            api_id=24157301,
+            api_hash=96af3e25323e488a75d85752dee7c936,
+            bot_token=6220682139:AAGl58rWWI2rcb5xxJ1Bq6r4hh3loAjRJqw,
             workers=300,
             plugins={"root": "plugins"},
             sleep_threshold=10,
